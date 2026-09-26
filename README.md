@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.x-green)
 ![Status](https://img.shields.io/badge/Status-Live-success)
 
-🌐 Live Demo: https://customer-churn-prediction-aabou6unsgc4wnqvejubdh.streamlit.app/  
+🌐 Live Demo: https://customer-curn-prediction-7kgyc8jsrkfwk7rxrkad2z.streamlit.app/
 A customer churn prediction system built using Random Forest Machine Learning and deployed with Streamlit for real-time customer churn prediction.
 
 📊 Features  
