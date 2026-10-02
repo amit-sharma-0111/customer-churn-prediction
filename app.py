@@ -17,7 +17,7 @@ def load_model():
         model = joblib.load("models/churn_model.pkl")
         return model, None
     except FileNotFoundError:
-        return None, "❌ Model file not found! Please check models/churn_model.pkl"
+        return None, "❌ Model file not found!"
     except Exception as e:
         return None, f"❌ Model load error: {str(e)}"
 
@@ -128,7 +128,6 @@ if predict_btn:
     else:
         st.success(f"✅ Customer Likely to STAY — Churn Risk: {risk_pct:.2f}%")
 
-    # Risk Gauge Bar
     st.markdown("#### 🎯 Churn Risk Meter")
     st.progress(int(risk_pct))
 
@@ -139,7 +138,6 @@ if predict_btn:
     else:
         st.error("🔴 High Risk")
 
-    # ---------------- SAVE HISTORY ----------------
     if "history" not in st.session_state:
         st.session_state.history = []
 
