@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.x-green)
 ![Status](https://img.shields.io/badge/Status-Live-success)
 
-🌐 **Live Demo:** [Click here to open app](https://customer-curn-prediction-7kgyc8jsrkfwk7rxrkad2z.streamlit.app/)
+🌐 **Live Demo:** [Click here to open app](https://customer-churn-prediction-qkhqckxgslf4zqxau7ny6j.streamlit.app/)
 
 ---
 
